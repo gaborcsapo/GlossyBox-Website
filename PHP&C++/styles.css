@@ -1,0 +1,74 @@
+body{
+  font-family: 'Century Gothic', 'Arial', 'sanserif';
+  color:  #ffc900;
+}
+
+div {
+  margin: 20px;
+}
+
+a{
+  color:#ffc900;
+}
+
+input{
+  display: block;
+  padding: 10px;
+  margin: auto;
+  width: 140px;
+  height: 25px;
+  font-size: 20px;
+  text-align: center;
+  border: 1px solid #ffc900;
+  color:  #ffc900;
+
+}
+
+.top{
+  height: 100px;
+  text-align: center;
+  font-size: 32px;
+  margin: 20px;
+}
+
+.bottom{
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  font-size: 16px;
+}
+
+.title{
+  font-size: 48px;
+  margin: 30px auto 30px;
+  text-align: center;
+}
+
+.myButton{
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  width: 220px;
+  height: 60px;
+  font-size: 32px;
+  border: 1px solid #ffc900;
+  background-color: white;
+}
+
+.myButton:active{
+  color: black;
+  border: 1px solid grey;
+}
+
+
+*:focus {
+    outline: 0;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #ffc900;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #ffc900;
+}

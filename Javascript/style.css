@@ -1,0 +1,65 @@
+.top{
+	height: 100px;
+	text-align: center;
+	font-size: 32px;
+	font-family: 'Lato';
+	color: grey;
+	margin: 20px;
+}
+
+.bottom{
+	position: absolute;
+	bottom: 30px;
+	right: 30px;
+	font-size: 16px;
+	font-family: 'Lato';
+	color: grey;
+}
+
+.title{
+	font-size: 48px;
+	font-family: 'Lato';
+	color: grey;
+	margin: 30px auto 30px;
+	text-align: center;
+}
+
+div {
+	margin: 20px;
+}
+
+input{
+	display: block;
+	padding: 10px;
+	margin: 100px auto 100px;
+	width: 220px;
+	height: 60px;
+	text-align: center;
+	font-size: 32px;
+	font-family: 'Lato';
+	border: 1px solid grey;
+	color: grey;
+
+}
+
+button{
+	display: block;
+	margin: 20px auto;
+	padding: 10px;
+	width: 220px;
+	height: 60px;
+	font-size: 32px;
+	font-family: 'Lato';
+	border: 1px solid grey;
+	background-color: white;
+	color: grey;
+}
+
+button:active{
+	color: black;
+	border: 1px solid black;
+}
+
+*:focus {
+    outline: 0;
+}
